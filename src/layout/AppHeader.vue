@@ -50,7 +50,7 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">Examplsses</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Landing</router-link>
                     <router-link to="/profile" class="dropdown-item">Profile</router-link>

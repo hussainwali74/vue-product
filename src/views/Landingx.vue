@@ -2,30 +2,30 @@
   <div>
     <div class="position-relative">
       <!-- shape Hero -->
-      <section class="section-shaped overflow-auto my-0 pb-5">
-        <div class="shape shape-style-1 shape-dark shape-skew">
-          <!-- <span></span>
+      <section class="section-shaped my-0">
+        <div class="shape shape-style-1 shape-default shape-skew">
           <span></span>
           <span></span>
-          <span></span>-->
+          <span></span>
+          <span></span>
           <span></span>
           <span></span>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="container shape-container pb-3">
+        <div class="container shape-container d-flex">
           <div class="col px-0">
-            <!-- about us -->
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="display-3 text-white">
-                  About Us
-                  <span>about the product</span>
+                  A beautiful Design System
+                  <span>completed with examples</span>
                 </h1>
                 <p class="lead text-white">
-                  The Q Property Management app has been designed to help people self-manage their properties. Our app helps streamline the process of acquiring tradies to complete jobs for you. We have hundreds of registered tradies Australia-wide who can assist with all of your needs. Through the Q Property Management app you will be able to easily post a job for many tradies to quote on, whilst keeping track of previous jobs you've posted and the tradies you've used.
-                  We do not cap quotes, you are provided with all the information about the tradie so it’s completely up to you to decide who you’d like to go with. We also provide a platform for all tradies in Australia to find jobs.
+                  The design system comes with four pre-built pages to help
+                  you get started faster. You can change the text and images and you're good to
+                  go.
                 </p>
                 <div class="btn-wrapper">
                   <base-button
@@ -33,146 +33,24 @@
                     href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
                     class="mb-3 mb-sm-0"
                     type="info"
-                    icon="fa fa-arrow-right"
-                  >Learn More</base-button>
-                  <!-- <base-button
+                    icon="fa fa-code"
+                  >Components</base-button>
+                  <base-button
                     tag="a"
                     href="https://www.creative-tim.com/product/argon-design-system"
                     class="mb-3 mb-sm-0"
                     type="white"
                     icon="ni ni-cloud-download-95"
-                  >Download HTML</base-button>-->
+                  >Download HTML</base-button>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <img src="img/theme/promo-1.png" class="img-fluid floating" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- end HERO SECTION -->
       <!-- 1st Hero Variation -->
     </div>
-
-    <!-- HOW IT WORKS -->
-    <section class="section section section-shaped mt-0 mb-0 pb-5">
-      <div class="shape shape-style-1 bg-gradient-dark shape-skew">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container shape-container d-flex pt-0 pb-8">
-        <div class="row row-grid align-items-center">
-          <div class="col-md-6 order-lg-2 ml-lg-auto">
-            <div class="position-relative pl-md-5">
-              <img src="img/ill/ill-2.svg" class="img-center img-fluid floating" />
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="d-flex px-3">
-              <div>
-                <icon
-                  name="ni ni-building"
-                  size="lg"
-                  class="bg-gradient-white"
-                  color="primary"
-                  shadow
-                  rounded
-                ></icon>
-              </div>
-              <div class="pl-4">
-                <h4 class="display-3 text-white">How it Works</h4>
-              </div>
-            </div>
-            <card shadow hover class="shadow-lg--hover mt-5">
-              <div class="d-flex px-3">
-                <div>
-                  <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
-                </div>
-                <div class="pl-4">
-                  <h5 class="title text-success">TO FIND A TRADIE</h5>
-                  <ol>
-                    <li>Simply download the app.</li>
-                    <li>Click on 'Post a job' and enter in the job details.</li>
-                    <li>Then sit back, relax and enjoy receiving the best quotes from qualified tradies.</li>
-                    <li>With push notifications you'll be notified every time a quote comes through.</li>
-                    <li>Assign the job to the tradie you choose, then just give them a call and book in a time.</li>
-                  </ol>
-                  <!-- <p>
-                    The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                    every summer, and that process will continue whatever happens.
-                  </p>-->
-                  <a href="#" class="text-success">Learn more</a>
-                </div>
-              </div>
-            </card>
-            <card shadow hover class="shadow-lg--hover mt-3">
-              <div class="d-flex px-3">
-                <div>
-                  <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
-                </div>
-                <div class="pl-4">
-                  <h5 class="title text-warning">TO FIND A JOB</h5>
-                  <ol>
-                    <li>Simply download the app.</li>
-                    <li>Register.</li>
-                    <li>Click on 'Find a job' and filter by your state.</li>
-                    <li>Then enjoy quoting on endless opportunities.</li>
-                    <li>
-                      With push notifications you'll be notified every time a job is posted in your state and
-                      every time you are assigned a job.
-                    </li>
-                  </ol>
-                  <a href="#" class="text-warning">Learn more</a>
-                </div>
-              </div>
-            </card>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- DOWNLOAD BUTTONS -->
-    <section class="section section-shaped pt-0 mt-0 mb-5 my-0 pb-5">
-      <div class="shape shape-style-3 bg-gradient-default shape-skew">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container pt-lg py-0 pt--1 mt-0 mb-5 pb-5 overflow-hidden">
-        <div class="row text-center justify-content-center">
-          <div class="col-lg-10">
-            <h2 class="display-3 text-white">DOWNLOAD THE APP</h2>
-          </div>
-        </div>
-        <div class="row row-grid mt-5">
-          <div class="col-lg-4 offset-lg-2">
-            <button class="btn btn-fill btn-block btn-outline-light">
-              <i class="font-weight-bold fa fa-apple"></i> Appstore
-            </button>
-          </div>
-          <div class="col-lg-4">
-            <button class="btn btn-block btn-fill btn-secondary">
-              <i class="fa fa-android"></i> Play Store
-            </button>
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </div>
-      </div>
-    </section>
-
-    <!-- Middle 3 cards -->
-    <!-- <section class="section section-lg pt-lg-0 mt-0">
+    <section class="section section-lg pt-lg-0 mt--200">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12">
@@ -230,9 +108,7 @@
         </div>
       </div>
     </section>
-    -->
-    <!-- AWESOME FEATURES  -->
-    <!-- <section class="section section-lg pt-lg-0">
+    <section class="section section-lg">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
@@ -277,10 +153,8 @@
           </div>
         </div>
       </div>
-    </section>-->
-
-    <!-- DESIGN SYSTEM -->
-    <!-- <section class="section bg-secondary">
+    </section>
+    <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
@@ -302,19 +176,6 @@
                   the sea-ice then thaws every summer, and that process will continue whatever
                   happens.
                 </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  :width="width"
-                  :height="height"
-                  viewBox="0 0 18 18"
-                  :aria-labelledby="iconName"
-                  role="presentation"
-                >
-                  <title :id="iconName" lang="en">icon</title>
-                  <g :fill="iconColor">
-                    <slot />
-                  </g>
-                </svg>
               </blockquote>
             </div>
           </div>
@@ -343,10 +204,8 @@
           </div>
         </div>
       </div>
-    </section>-->
-
-    <!-- HORIZONTAL 2 CARDS WITH IMAGE  -->
-    <!-- <section class="section section section-shaped my-0 overflow-hidden">
+    </section>
+    <section class="section section section-shaped my-0 overflow-hidden">
       <div class="shape shape-style-1 bg-gradient-warning shape-skew">
         <span></span>
         <span></span>
@@ -415,7 +274,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     <section class="section section-lg">
       <div class="container">
         <div class="row justify-content-center text-center mb-lg">
@@ -574,7 +433,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="section section-lg pt-0">
+    <section class="section section-lg pt-0">
       <div class="container">
         <card gradient="warning" no-body shadow-size="lg" class="border-0">
           <div class="p-5">
@@ -599,8 +458,8 @@
           </div>
         </card>
       </div>
-    </section>-->
-    <!-- <section class="section section-shaped my-0 overflow-hidden">
+    </section>
+    <section class="section section-shaped my-0 overflow-hidden">
       <div class="shape shape-style-3 bg-gradient-default shape-skew">
         <span></span>
         <span></span>
@@ -645,7 +504,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     <section class="section section-lg pt-lg-0 section-contact-us">
       <div class="container">
         <div class="row justify-content-center mt--300">

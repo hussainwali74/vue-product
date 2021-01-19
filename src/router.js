@@ -4,23 +4,26 @@ import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
+import Landingx from "./views/Landingx.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
-
+import HomeLayout from './layout/HomeLayout';
 Vue.use(Router);
 
 export default new Router({
   linkExactActiveClass: "active",
+  mode: 'history',
   routes: [
     {
       path: "/",
-      name: "components",
-      components: {
-        header: AppHeader,
-        default: Components,
-        footer: AppFooter
-      }
+      component: HomeLayout
+      // name: "components",
+      // components: {
+      //   header: AppHeader,
+      //   default: Components,
+      //   footer: AppFooter
+      // }
     },
     {
       path: "/landing",
@@ -30,6 +33,11 @@ export default new Router({
         default: Landing,
         footer: AppFooter
       }
+    },
+    {
+      path: '/land',
+      name: 'landx',
+      component: Landingx
     },
     {
       path: "/login",

@@ -1,0 +1,38 @@
+.navbar-transparent .navbar-nav .show > .nav-link,
+.navbar-transparent .navbar-nav .active > .nav-link,
+.navbar-transparent .navbar-nav .nav-link.show,
+.navbar-transparent .navbar-nav .nav-link.active {
+  color: #ffffffb0 !important;
+}
+.navbar-transparent .navbar-nav .show > .nav-link,
+.navbar-transparent .navbar-nav .active > .nav-link,
+.navbar-transparent .navbar-nav .nav-link.show,
+.navbar-transparent .navbar-nav .nav-link.active {
+  color: #ffffffff !important;
+}
+.navbar-transparent .navbar-nav .show > .nav-link,
+.navbar-transparent .navbar-nav .active > .nav-link,
+.navbar-transparent .navbar-nav .nav-link.show,
+.navbar-transparent .navbar-nav .nav-link:hover {
+  color: #ffffffff !important;
+}
+.bg-dark {
+  background-color: #161616 !important;
+}
+.card-body {
+  color: #161616 !important;
+}
+.pb-8 {
+  padding-bottom: 8rem !important;
+}
+.pt--1 {
+  padding-top: -1rem !important;
+}
+@media (max-width: 768px) {
+  .navbar-transparent .navbar-nav .show > .nav-link,
+  .navbar-transparent .navbar-nav .active > .nav-link,
+  .navbar-transparent .navbar-nav .nav-link.show,
+  .navbar-transparent .navbar-nav .nav-link.active {
+    color: #5e72e4 !important;
+  }
+}
